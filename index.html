@@ -5,6 +5,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Email Marketing</title>
 
+  <!-- responsividade -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
   <!-- Fontes e Icones -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -12,7 +15,7 @@
   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
 </head>
 <body style="background-color: var(--color-two); display: flex; justify-content: center;">
-  <div class="email__marketing__container" style="display: flex; flex-direction: column; width: 40vw; margin-top: 10vh;">
+  <div class="email__marketing__container" style="display: flex; flex-direction: column; width: 600px; margin-top: 10vh;">
     <main>
       <div class="header__logo" style="background-color: var(--color-seven); border-radius: 0 0 12px 12px; width: 5rem; height: 6rem; font-size: 3.5rem; position: absolute; left: 60vw; top: 9.5vh; z-index: 2; display: flex; justify-content: center; align-items: center; color: var(--color-one);">
         <i class="fa-regular fa-circle"></i>
@@ -67,7 +70,7 @@
     </main>
 
     <footer>
-      <div class="footer__container" style="margin: 1rem 0 0 0; background-color: var(--color-one); border: solid 1px var(--color-eigth); border-radius: 6px; width: 40vw; display: flex; flex-direction: row; justify-content: space-between;">
+      <div class="footer__container" style="margin: 1rem 0 0 0; background-color: var(--color-one); border: solid 1px var(--color-eigth); border-radius: 6px; width: 600px; display: flex; flex-direction: row; justify-content: space-between;">
         <div class="footer__description" style="display: flex; flex-direction: column; gap: 2rem; margin: 1rem 0 0 1rem; padding: 1.25rem;">
           <div class="footer__text" style="font-size: 1rem; color: var(--color-three); font-weight: 400;">
             Atenciosamente,
@@ -105,6 +108,12 @@
 
       font-family: inter;
     }
+
+    @media only screen and (max-width:600px) {
+    .email__marketing__container, .footer__container {
+        width: 100%;
+    }
+}
   </style>
 </body>
 </html>
