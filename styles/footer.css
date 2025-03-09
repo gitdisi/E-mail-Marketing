@@ -3,7 +3,7 @@
     background-color: var(--color-one);
     border: solid 1px var(--color-eigth);
     border-radius: 6px;
-    width: 40vw;
+    width: 600px;
 
     display: flex;
     flex-direction: row;

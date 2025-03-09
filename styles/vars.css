@@ -10,3 +10,9 @@
 
     font-family: inter;
 }
+
+@media only screen and (max-width:600px) {
+    .email__marketing__container, .footer__container {
+        width: 100%;
+    }
+}

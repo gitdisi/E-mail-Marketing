@@ -8,7 +8,7 @@ body {
 .email__marketing__container {
     display: flex;
     flex-direction: column;
-    width: 40vw;
+    width: 600px;
     margin-top: 10vh;
 }
 
