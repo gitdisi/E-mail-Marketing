@@ -1,6 +1,6 @@
 :root {
     --color-one: #FFFFFF;
-    --color-two: #ECF1F5;
+    --color-two: #EDECEA;
     --color-three: #68717c;
     --color-four: #00637A;
     --color-five: #09002C;
@@ -11,8 +11,40 @@
     font-family: inter;
 }
 
-@media only screen and (max-width:600px) {
+@media (max-width:600px) {
     .email__marketing__container, .footer__container {
-        width: 100%;
+        width: 100% !important;
+    }
+
+    .header__apresentation__subtitle {
+        display: flex !important;
+        flex-direction: column !important;
+    }
+
+    .main__button__subtitle {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .header__logo {
+        left: 70vw;
+    }
+
+    .header__container {
+        margin: 0 0 0 0;
+    }
+
+    .main__container {
+        margin: 4rem 0 0 0;
+    }
+
+    .main__footer__container {
+        margin: 2rem 0 0 0;
+    }
+
+    .footer__description {
+        margin: 0;
     }
 }

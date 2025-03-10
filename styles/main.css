@@ -1,6 +1,7 @@
 body {
+    margin: 0;
+    padding: 0;
     background-color: var(--color-two);
-    
     display: flex;
     justify-content: center;
 }
@@ -10,15 +11,15 @@ body {
     flex-direction: column;
     width: 600px;
     margin-top: 10vh;
+    max-inline-size: 100%;
+    border-top: solid 1rem var(--color-five);
 }
 
 .master__container {
     background-color: var(--color-one);
     border-radius: 0 0px 7px 7px;
-    border-top: solid 1rem var(--color-five);
     z-index: 1;
     border: solid 1px var(--color-eigth);
-
     display: flex;
     flex-direction: column;
     padding: 1.25rem;
@@ -48,11 +49,11 @@ body {
     display: flex;
     flex-direction: column;
     margin: 0 1rem 0 1rem;
-    gap: 4rem;
+    gap: 3.5rem;
 }
 
 .header__apresentation__company {
-    font-size: 1rem;
+    font-size: 0.8rem;
     color: var(--color-three);
     font-weight: 400;
     width: 45vw;
@@ -66,7 +67,7 @@ body {
 }
 
 .header__apresentation__title {
-    font-size: 1.75rem;
+    font-size: 1.5rem;
     font-weight: 400;
     color: var(--color-four);
 }
@@ -84,12 +85,17 @@ body {
 }
 
 .header__apresentation__subtitle .header__apresentation__title__span1 {
-    font-size: 1rem;
+    font-size: 0.8rem;
     color: var(--color-three);
     font-weight: 400;
     background-color: var(--color-two);
     padding: 0.25rem;
     filter: brightness(95%);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 3.8rem;
 }
 
 .header__apresentation__subtitle .header__apresentation__title__span2 {
@@ -97,19 +103,25 @@ body {
     background-color: #EEE9D5;
     padding: 0.25rem;
     font-weight: 400;
+    font-size: 0.8rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 14.5rem;
 }
 
 /* Main */
 
 .main__container {
-    margin: 4rem 1rem 0 1rem;
+    margin: 3.5rem 1rem 0 1rem;
     display: flex;
     flex-direction: column;
-    gap: 4rem;
+    gap: 3.5rem;
 }
 
 .main__container .main__description {
-    font-size: 1.2rem;
+    font-size: 1rem;
     font-weight: 400;
     color: var(--color-three);
 }
@@ -123,26 +135,26 @@ body {
 }
 
 .main__container .main__button button {
-    padding: 1rem 4rem 1rem 4rem;
+    padding: 1rem 3rem 1rem 3rem;
     background-color: var(--color-five);
     color: var(--color-one);
-    font-size: 1.2rem;
+    font-size: 1rem;
     font-weight: 700;
     border-radius: 6px;
     cursor: pointer;
 }
 
-.main__container .main__button span {
-    font-size: 1rem;
+.main__container .main__button .main__button__subtitle span {
+    font-size: 0.8rem;
     color: var(--color-three);
     font-weight: 400;
 }
 
-.main__container .main__button a {
+.main__container .main__button .main__button__subtitle a {
     color: var(--color-five);
     text-decoration: none;
     cursor: pointer;
-    font-size: 1rem;
+    font-size: 0.8rem;
 }
 
 /* Main Footer */
@@ -162,5 +174,7 @@ body {
     font-size: 1rem;
     color: var(--color-three);
     margin-bottom: 2rem;
+    font-style: italic;
+    font-weight: 0;
 }
 
