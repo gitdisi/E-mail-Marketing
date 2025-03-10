@@ -11,8 +11,27 @@
     font-family: inter;
 }
 
+@media (min-width:430px) and (max-width:599px) {
+    .header__logo {
+        left: 80vw;
+        top: -25px;
+    }
+}
+
+@media (max-width:429px) {
+    .header__logo {
+        left: 70vw;
+        top: -25px;
+    }
+}
+
 @media (max-width:600px) {
-    .email__marketing__container, .footer__container {
+    .email__marketing__container {
+        width: 100% !important;
+        margin-top: 0;
+    }
+
+    .footer__container {
         width: 100% !important;
     }
 
@@ -26,10 +45,6 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
-    }
-
-    .header__logo {
-        left: 70vw;
     }
 
     .header__container {

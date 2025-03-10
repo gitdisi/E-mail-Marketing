@@ -7,6 +7,8 @@ body {
 }
 
 .email__marketing__container {
+    position: relative;
+
     display: flex;
     flex-direction: column;
     width: 600px;
@@ -33,8 +35,9 @@ body {
     font-size: 3.5rem;
 
     position: absolute;
-    left: 60vw;
-    top: 9.5vh;
+    left: 480px;
+    top: -25px;
+    
     z-index: 2;
     
     display: flex;
@@ -108,7 +111,8 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 14.5rem;
+    gap: 8px;
+    width: 15rem;
 }
 
 /* Main */
